@@ -1,0 +1,14 @@
+version: "3.3"
+services:
+  service1:
+    container_name: service1
+    build: service1/.
+    restart: on-failure:2
+  service2:
+    container_name: service2
+    build: service2/.
+    restart: on-failure:2
+  service3:
+    container_name: service3
+    build: service3/.
+    restart: on-failure:2
